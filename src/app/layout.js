@@ -17,7 +17,7 @@ export const metadata = {
   openGraph: {
     title: "Shekhar & Akrati",
     description: "Join as they begin their forever. 13 & 14 December, 2026",
-    url: "https://shekharandakrati.vercel.app/",
+    url: "https://shekharandakrati-v2.vercel.app/",
     siteName: "InviteArc",
     images: [
       {
@@ -38,7 +38,7 @@ export const metadata = {
   },
 
   other: {
-    "og:image:secure_url": "https://shekharandakrati.vercel.app/og.jpg",
+    "og:image:secure_url": "https://shekharandakrati-v2.vercel.app/og.jpg",
     "og:image:type": "image/jpg",
   },
 };
