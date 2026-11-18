@@ -1,49 +1,10 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
-
-function Reveal({ from = "bottom", className = "", children }) {
-  const ref = useRef(null);
-  const [show, setShow] = useState(false);
-
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setShow(true);
-          observer.disconnect();
-        }
-      },
-      { threshold: 0.2 },
-    );
-
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, []);
-
-  const hidden = from === "top" ? "-translate-y-full" : "translate-y-full";
-
-  return (
-    <div ref={ref} className={`overflow-hidden ${className}`}>
-      <div
-        className={`transition-all duration-1000 ease-out motion-reduce:transition-none ${
-          show ? "translate-y-0 opacity-100" : `${hidden} opacity-0`
-        }`}
-      >
-        {children}
-      </div>
-    </div>
-  );
-}
-
 export default function Events() {
   return (
     <>
       {/* Carnival event */}
-      <div className="flex scroll-mt-6 flex-col  items-center bg-[url('/assets/carnival.webp')] bg-cover bg-no-repeat h-140">
+      <div className="flex scroll-mt-6 flex-col  items-center bg-[url('/assets/carnival.webp')] bg-cover bg-no-repeat h-140 md:h-340 lg:h-640">
         <div className="flex flex-col items-center rounded-2xl lg:py-12 lg:px-20 px-6 py-6 md:mt-20  mt-20">
           <h2 className="text-[#8c1034] font-cormorant-upright font-semibold  text-[50px] md:text-5xl lg:text-[70px]">
             Carnival
@@ -70,7 +31,7 @@ export default function Events() {
       </div>
 
       {/* Ring Ceremony event */}
-      <div className="flex scroll-mt-6 flex-col  items-center bg-[url('/assets/ring.webp')] bg-cover bg-no-repeat h-170">
+      <div className="flex scroll-mt-6 flex-col  items-center bg-[url('/assets/ring.webp')] bg-cover bg-no-repeat h-170 md:h-340 lg:h-640">
         <div className="flex flex-col items-center rounded-2xl lg:py-12 lg:px-20 px-6 py-6 md:mt-20  mt-30">
           <h2 className="text-[#8c1034] font-cormorant-upright font-semibold  text-[45px] md:text-5xl lg:text-[70px]">
             Ring Ceremony
@@ -97,7 +58,7 @@ export default function Events() {
       </div>
 
       {/* Sangeet event */}
-      <div className="flex scroll-mt-6 flex-col  items-center bg-[url('/assets/sangeet.webp')] bg-cover bg-no-repeat h-170">
+      <div className="flex scroll-mt-6 flex-col  items-center bg-[url('/assets/sangeet.webp')] bg-cover bg-no-repeat h-170 md:h-340 lg:h-640">
         <div className="flex flex-col items-center rounded-2xl lg:py-12 lg:px-20 px-6 py-6 md:mt-20  mt-26">
           <h2 className="text-[#8c1034] font-cormorant-upright font-semibold  text-[45px] md:text-5xl lg:text-[70px]">
             Ladies Sangeet
@@ -124,7 +85,7 @@ export default function Events() {
       </div>
 
       {/* Ghur Chadi event */}
-      <div className="flex scroll-mt-6 flex-col  items-center bg-[url('/assets/ghurchadi.webp')] bg-cover bg-no-repeat h-170">
+      <div className="flex scroll-mt-6 flex-col  items-center bg-[url('/assets/ghurchadi.webp')] bg-cover bg-no-repeat h-170 md:h-340 lg:h-640">
         <div className="flex flex-col items-center rounded-2xl lg:py-12 lg:px-20 px-6 py-6 md:mt-20  mt-30">
           <h2 className="text-[#8c1034] font-cormorant-upright font-semibold  text-[45px] md:text-5xl lg:text-[70px]">
             Ghurchadi
@@ -149,7 +110,7 @@ export default function Events() {
       </div>
 
       {/* Pheras event */}
-      <div className="flex scroll-mt-6 flex-col  items-center bg-[url('/assets/phere.webp')] bg-cover bg-no-repeat h-170">
+      <div className="flex scroll-mt-6 flex-col  items-center bg-[url('/assets/phere.webp')] bg-cover bg-no-repeat h-170 md:h-340 lg:h-640">
         <div className="flex flex-col items-center rounded-2xl lg:py-12 lg:px-20 px-6 py-6 md:mt-20  mt-24">
           <h2 className="text-[#8c1034] font-cormorant-upright font-semibold  text-[45px] md:text-5xl lg:text-[70px]">
             Pheras
@@ -176,7 +137,7 @@ export default function Events() {
       </div>
 
       {/* Reception event */}
-      <div className="flex scroll-mt-6 flex-col  items-center bg-[url('/assets/reception.webp')] bg-cover bg-no-repeat h-170">
+      <div className="flex scroll-mt-6 flex-col  items-center bg-[url('/assets/reception.webp')] bg-cover bg-no-repeat h-170 md:h-340 lg:h-640">
         <div className="flex flex-col items-center rounded-2xl lg:py-12 lg:px-20 px-6 py-6 md:mt-20  mt-25">
           <h2 className="text-[#fff] font-cormorant-upright font-semibold  text-[40px] md:text-5xl lg:text-[70px]">
             Reception Night

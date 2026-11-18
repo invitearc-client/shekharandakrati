@@ -46,7 +46,7 @@ export default function Details({ from = "bottom", className = "", children }) {
 
   return (
     <>
-      <div className="mx-auto w-full text-center bg-[url('/assets/detail_bg.webp')] bg-no-repeat bg-cover flex flex-col justify-center items-center">
+      <div className="mx-auto w-full text-center bg-[url('/assets/detail_bg3.webp')] bg-no-repeat bg-cover flex flex-col justify-center items-center ">
         <Reveal from="top" className="w-full">
           <img
             src="/assets/hero_top.webp"
@@ -54,14 +54,14 @@ export default function Details({ from = "bottom", className = "", children }) {
             className="w-full"
           />
         </Reveal>
-
+<div className="px-4 flex flex-col justify-center items-center">
         <img
           src="/assets/ganesha.png"
           alt="Wedding Logo"
           className="md:w-22 w-18 z-10 -mt-30"
         />
 
-        <p className="relative z-10 text-[#C99333] font-semibold tracking-widest text-[12px] md:text-[14px] mt-5 px-2">
+        <p className="relative z-10 text-[#915e00] font-semibold tracking-widest text-[12px] md:text-[14px] mt-5 px-2">
           ||॥ श्री गणेशाय नमः ॥||
           <br />
           मंगलम् भगवान् विष्णु मंगलम् गरुणध्वजः मंगलम् पुण्डरीकाक्षः मंगलाय
@@ -97,7 +97,7 @@ export default function Details({ from = "bottom", className = "", children }) {
           </p>
         </h2>
 
-        <h2 className="relative z-10 flex flex-col items-center text-[#C9850B] text-4xl md:text-4xl lg:text-[70px] mt-12">
+        <h2 className="relative z-10 flex flex-col items-center text-[#915e00] text-4xl md:text-4xl lg:text-[70px] mt-12">
           <span className="font-cormorant-upright font-bold">
             The Blessed Beginning
           </span>
@@ -117,12 +117,15 @@ export default function Details({ from = "bottom", className = "", children }) {
           </p>
         </h2>
         <ScratchText onReveal={() => setRevealed(true)} />
-
+</div>
         {revealed && (
           <div className="countdown-fade-in">
             <MarriageCountdown />
           </div>
         )}
+
+
+
 <Reveal from="bottom"><img
           src="/assets/hero_bottom.webp"
           alt="Wedding Logo"

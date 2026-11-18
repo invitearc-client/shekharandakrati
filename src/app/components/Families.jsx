@@ -4,7 +4,36 @@ import { SquarePen } from "lucide-react";
 export default function Families() {
   return (
     <>
-      <section className="w-full overflow-x-clip bg-[url('/assets/hero_bg.webp')] bg-cover bg-no-repeat py-20 pt-10 md:pt-60 lg:pt-120 px-12 lg:h-350">
+      <section className="w-full overflow-x-clip bg-[url('/assets/hero_bg.webp')] bg-cover bg-no-repeat py-20 pt-10 md:pt-20 lg:pt-30 px-12 lg:h-350">
+        <h2 className="mt-4 text-center text-[24px] leading-tight text-[#8c1034] font-cormorant-upright  md:text-4xl lg:text-[60px] font-bold">
+          Cordially Invited
+        </h2>
+
+        <p className="text-center text-[18px] tracking-medium text-[#C99333] font-cormorant-garamond md:text-2xl font-semibold">
+          Vinay - Dr. Ram Kishor Agarwal <br />
+          Kanak - Mukesh Agarwal
+          <br />
+          Shikha - Munesh Agarwal
+          <br />
+          Savita - Arun Agarwal
+        </p>
+
+        <h2 className="mt-4 text-center text-[24px] leading-tight text-[#8c1034] font-cormorant-upright  md:text-4xl lg:text-[60px] font-bold">
+          Welcome by
+        </h2>
+
+        <p className="text-center text-[18px] tracking-medium text-[#C99333] font-cormorant-garamond md:text-2xl font-semibold">
+          Shalini - Ambrish Agrawal <br />
+          Bhawna - Manoj Agrawal <br />
+          Gunjan - Prateek Mittal
+          <br />
+          Harshita - Tarun Garg
+          <br />
+          Divya - Paras Agrawal
+          <br />
+          Shrasthi - Rishabh Agrawal
+        </p>
+
         <h2 className="mt-4 text-center text-[24px] leading-tight text-[#8c1034] font-cormorant-upright font-bold  md:text-4xl lg:text-[60px]">
           RSVP
         </h2>
@@ -18,53 +47,24 @@ export default function Families() {
         </p>
 
 
-
-  <h2 className="mt-4 text-center text-[24px] leading-tight text-[#8c1034] font-cormorant-upright  md:text-4xl lg:text-[60px] font-bold">
-          With Best Compliments From
+         <h2 className="mt-4 text-center text-[24px] leading-tight text-[#8c1034] font-cormorant-upright font-bold  md:text-4xl lg:text-[60px]">
+          Chachu's Little Stars
         </h2>
 
-<p className="text-center text-[18px] tracking-medium text-[#C99333] font-cormorant-garamond md:text-2xl font-semibold">
-          Dr. Ram Kishor Agrawal <br />
-          (Chancellor: KD University Mathura) <br />
-          Mukesh Agrawal, Munesh Agrawal <br />
-          Arun Agrawal & All Agarwal Family<br />
-        
+        <p className="text-center text-[18px] tracking-medium text-[#C99333] font-cormorant-garamond md:text-2xl font-semibold">
+          Radhya, Shaurya, Nikunj, Chaitanya, Nitya
         </p>
 
 
 
 
-          <h2 className="mt-4 text-center text-[24px] leading-tight text-[#8c1034] font-cormorant-upright  md:text-4xl lg:text-[60px] font-bold">
-         Welcome by
+ <h2 className="mt-4 text-center text-[24px] leading-tight text-[#8c1034] font-cormorant-upright font-bold  md:text-4xl lg:text-[60px]">
+          Mama's Little Stars
         </h2>
 
-<p className="text-center text-[18px] tracking-medium text-[#C99333] font-cormorant-garamond md:text-2xl font-semibold">
-         Shalini - Ambrish Agrawal <br />
-        Bhawna - Manoj Agrawal <br />
-         Gunjan - Prateek Mittal<br />
-        Harshita - Tarun Garg<br />
-          Divya - Paras Agrawal<br /> 
-          Shrasthi - Rishabh Agrawal
+        <p className="text-center text-[18px] tracking-medium text-[#C99333] font-cormorant-garamond md:text-2xl font-semibold">
+          Ayati, Gauri, Akshat, Ananya, Devansh, Cherry, Harshul, Aarvi, Pavni, Adyant
         </p>
-
-
-<h2 className="mt-4 text-center text-[24px] leading-tight text-[#8c1034] font-cormorant-upright  md:text-4xl lg:text-[60px] font-bold">
-        Cordially Invited
-        </h2>
-
-<p className="text-center text-[18px] tracking-medium text-[#C99333] font-cormorant-garamond md:text-2xl font-semibold">
-        Vinay - Dr. Ram Kishor Agarwal <br />
-        Kanak - Mukesh Agarwal<br />
-         Shikha - Munesh Agarwal<br />
-          Savita - Arun Agarwal
-        </p>
-
-
-
-
-
-
-
         <div className="flex flex-col justify-center items-center mt-8">
           <a
             href="https://invitearc.com/"
