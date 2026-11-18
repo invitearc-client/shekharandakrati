@@ -8,32 +8,30 @@ export default function Families() {
         <h2 className="mt-4 text-center text-[40px] leading-tight text-[#8c1034] font-cormorant-upright font-semibold  md:text-4xl lg:text-[60px]">
           RSVP
         </h2>
-        <p className="text-center text-[21px] tracking-widest text-[#C99333] font-cormorant-garamond md:text-2xl font-bold">
-          Garg Family
-          
-        </p>
-        <p className="text-center text-[16px] tracking-widest text-[#C99333] font-cormorant-garamond md:text-2xl">
-          
-          9310303099 <br />
-          9555562238 <br/>
-          9810124626
+
+        <p className="text-center text-[18px] tracking-wider text-[#C99333] font-cormorant-garamond md:text-2xl font-semibold">
+          Vineet - Ekta <br />
+          Tarun - Swati <br />
+          Dipesh - Ridhima <br />
+          Dr. Devanshu - Deeksha <br />
+          Namit, Dr. Rohan, Parth
         </p>
 
-      
         <div className="flex flex-col justify-center items-center mt-8">
-          
-          
           <a
             href="https://invitearc.com/"
             target="_blank"
             rel="noopener noreferrer"
             className=" flex items-center"
-          > <img
-          src="/assets/invite.png"
-          alt="Wedding Logo"
-          className="md:w-17 w-13"
-        /></a>
-          
+          >
+            {" "}
+            <img
+              src="/assets/invite.png"
+              alt="Wedding Logo"
+              className="md:w-17 w-13"
+            />
+          </a>
+
           <a
             href="https://www.instagram.com/theinvitearc/"
             target="_blank"

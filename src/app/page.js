@@ -3,7 +3,7 @@
 import { useEffect, useState, useRef } from "react";
 
 import Details from "./components/Details";
-import Forever from "./components/Forever";
+// import Forever from "./components/Forever";
 import Events from "./components/Events";
 import Families from "./components/Families";
 import RoseHeroTemp from "./components/RoseHeroTemp";
@@ -88,7 +88,7 @@ useEffect(() => {
 
       <audio
         ref={audioRef}
-        src="/assets/kanika.mp3"
+        src="/assets/Shekhar.mp3"
         loop
         preload="auto"
         playsInline
@@ -134,31 +134,31 @@ useEffect(() => {
           <RoseHeroTemp />
         </div>
 
-        <video
+        {/* <video
           src="/assets/hero2_video.mp4"
           autoPlay
           loop
           muted
           playsInline
           className="block w-full h-[650px] md:h-auto lg:h-auto object-cover"
-        />
+        /> */}
 
-        <div className="absolute inset-x-0 top-10 md:top-20 lg:top-80 flex flex-col items-center text-center px-2">
+        {/* <div className="absolute inset-x-0 top-10 md:top-20 lg:top-80 flex flex-col items-center text-center px-2">
           <h2 className="relative z-10 flex flex-col items-center text-[#C9850B] text-[44px] md:text-6xl lg:text-[90px] ">
-            <span className="cookie-regular">Kanika</span>
+            <span className="cookie-regular">Shekhar</span>
 
             <span className="font-great-vibes text-2xl md:text-2xl lg:text-[48px] text-[#C9850B] md:py-8">
               &
             </span>
 
-            <span className="cookie-regular">Aakarsh</span>
+            <span className="cookie-regular">Akrati</span>
           </h2>
-        </div>
+        </div> */}
 
         
 
         <Details />
-        <Forever />
+        {/* <Forever /> */}
         <Events />
         <Families />
       </div>

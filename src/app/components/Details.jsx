@@ -76,24 +76,24 @@ export default function Details({ from = "bottom", className = "", children }) {
         <p className="relative z-10 text-[#546F2F] tracking-wider text-[14px] md:text-[20px] mt-4 font-cormorant-garamond  font-semibold">
           With the heavenly blessings of
           <br />
-          Late Duli Chand Garg & Mrs. Sharbati Garg
+          Late Smt. Shyamwati & Late Shri Jagdish Prasad Goyal
         </p>
 
         <h2 className="relative z-10 flex flex-col items-center text-[#C14405] text-5xl md:text-4xl lg:text-[90px] mt-12">
-          <span className="cookie-regular">Kanika</span>
+          <span className="cookie-regular">Shekhar</span>
 
           <p className="text-[#546F2F] tracking-wider text-[15px] md:text-[20px] font-cormorant-garamond  font-semibold mt-2">
-            (D/o Mrs. Manju Garg & Mr. Davendra Garg)
+            (S/o Smt. Vineeta Goyal & Shri Praveen Kumar Goyal)
           </p>
 
           <span className="cookie-regular text-3xl md:text-2xl lg:text-[48px] text-[#C14405] md:py-10 pt-6 pb-3">
             With
           </span>
 
-          <span className="cookie-regular">Aakarsh</span>
+          <span className="cookie-regular">Akrati</span>
 
           <p className="text-[#546F2F] tracking-wider text-[15px] md:text-[20px] font-cormorant-garamond  font-semibold mt-2">
-            (S/o Mrs. Reema Garg & Mr. Ashish Garg)
+            (D/o Smt. Reenu Agarwal & Shri. Mukesh Agarwal)
           </p>
         </h2>
 

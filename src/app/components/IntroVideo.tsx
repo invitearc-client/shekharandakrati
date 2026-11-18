@@ -84,7 +84,7 @@ export default function IntroVideo() {
             backgroundRepeat: "no-repeat",
           }}
         >
-          <span className="absolute left-1/2 top-[40%] -translate-x-1/2 -translate-y-1/2 text-center text-4xl font-semibold text-[#C99333] md:text-4xl font-cormorant-upright">
+          <span className="absolute left-1/2 top-[26%] -translate-x-1/2 -translate-y-1/2 text-center text-4xl font-semibold text-[#C99333] md:text-4xl font-cormorant-upright">
             Tap to Reveal
           </span>
         </button>
