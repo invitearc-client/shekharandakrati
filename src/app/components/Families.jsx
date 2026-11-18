@@ -46,8 +46,7 @@ export default function Families() {
           Namit, Dr. Rohan, Parth
         </p>
 
-
-         <h2 className="mt-4 text-center text-[24px] leading-tight text-[#8c1034] font-cormorant-upright font-bold  md:text-4xl lg:text-[60px]">
+        <h2 className="mt-4 text-center text-[24px] leading-tight text-[#8c1034] font-cormorant-upright font-bold  md:text-4xl lg:text-[60px]">
           Chachu's Little Stars
         </h2>
 
@@ -55,15 +54,13 @@ export default function Families() {
           Radhya, Shaurya, Nikunj, Chaitanya, Nitya
         </p>
 
-
-
-
- <h2 className="mt-4 text-center text-[24px] leading-tight text-[#8c1034] font-cormorant-upright font-bold  md:text-4xl lg:text-[60px]">
+        <h2 className="mt-4 text-center text-[24px] leading-tight text-[#8c1034] font-cormorant-upright font-bold  md:text-4xl lg:text-[60px]">
           Mama's Little Stars
         </h2>
 
         <p className="text-center text-[18px] tracking-medium text-[#C99333] font-cormorant-garamond md:text-2xl font-semibold">
-          Ayati, Gauri, Akshat, Ananya, Devansh, Cherry, Harshul, Aarvi, Pavni, Adyant
+          Ayati, Gauri, Akshat, Ananya, Devansh, Cherry, Harshul, Aarvi, Pavni,
+          Adyant
         </p>
         <div className="flex flex-col justify-center items-center mt-8">
           <a
