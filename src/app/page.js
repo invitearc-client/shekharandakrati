@@ -88,7 +88,7 @@ useEffect(() => {
 
       <audio
         ref={audioRef}
-        src="/assets/Shekhar.mp3"
+        src="/assets/kanika.mp3"
         loop
         preload="auto"
         playsInline
