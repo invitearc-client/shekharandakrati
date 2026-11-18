@@ -119,7 +119,7 @@ export default function Events() {
             14 December 2026 · Monday
           </p>
           <p className="text-black font-cormorant-garamond text-[18px] md:text-base text-center lg:text-[25px]">
-            6:00 PM
+            2:00 PM
           </p>
           <p className="text-black font-cormorant-garamond text-[18px] md:text-base text-center lg:text-[25px]">
             Narayana Sarovar Portico <br />
