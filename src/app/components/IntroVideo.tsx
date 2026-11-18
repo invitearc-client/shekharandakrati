@@ -78,7 +78,7 @@ export default function IntroVideo() {
           aria-label="Play intro video"
           className="absolute inset-0 z-20 h-full w-full cursor-pointer border-0 p-0"
           style={{
-            backgroundImage: "url('/assets/hero-poster.png')",
+            backgroundImage: "url('/assets/hero-poster.webp')",
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
