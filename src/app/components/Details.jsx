@@ -80,7 +80,7 @@ export default function Details({ from = "bottom", className = "", children }) {
         </p>
 
         <h2 className="relative z-10 flex flex-col items-center text-[#C14405] text-5xl md:text-4xl lg:text-[90px] mt-12">
-          <span className="cookie-regular">Shekhar</span>
+          <span className="cookie-regular">Drx. Shekhar</span>
 
           <p className="text-[#546F2F] tracking-wider text-[15px] md:text-[20px] font-cormorant-garamond  font-semibold mt-2">
             (S/o Smt. Vineeta Goyal & Shri Praveen Kumar Goyal)
@@ -90,7 +90,7 @@ export default function Details({ from = "bottom", className = "", children }) {
             With
           </span>
 
-          <span className="cookie-regular">Akrati</span>
+          <span className="cookie-regular">Er. Akrati</span>
 
           <p className="text-[#546F2F] tracking-wider text-[15px] md:text-[20px] font-cormorant-garamond  font-semibold mt-2">
             (D/o Smt. Reenu Agarwal & Shri. Mukesh Agarwal)
