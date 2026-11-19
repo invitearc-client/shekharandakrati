@@ -12,12 +12,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://shekharandakrati.vercel.app/"),
+  metadataBase: new URL("https://shekharandakrati.invitearc.com/"),
 
   openGraph: {
     title: "Shekhar & Akrati",
     description: "Join as they begin their forever. 13 & 14 December, 2026",
-    url: "https://shekharandakrati-v2.vercel.app/",
+    url: "https://shekharandakrati.invitearc.com/",
     siteName: "InviteArc",
     images: [
       {
@@ -38,7 +38,7 @@ export const metadata = {
   },
 
   other: {
-    "og:image:secure_url": "https://shekharandakrati-v2.vercel.app/og.jpg",
+    "og:image:secure_url": "https://shekharandakrati.invitearc.com/og.jpg",
     "og:image:type": "image/jpg",
   },
 };
