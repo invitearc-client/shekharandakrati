@@ -74,7 +74,7 @@ export default function Details({ from = "bottom", className = "", children }) {
         />
 
         <p className="relative z-10 text-[#546F2F] tracking-wider text-[14px] md:text-[20px] mt-4 font-cormorant-garamond  font-semibold">
-          With the heavenly blessings of
+          With the heavenly blessings of Grandparents
           <br />
           Late Smt. Shyam wati Devi & Late Shri Jagdish Prasad Goyal
         </p>
@@ -82,8 +82,7 @@ export default function Details({ from = "bottom", className = "", children }) {
         <h2 className="relative z-10 flex flex-col items-center text-[#C14405] text-5xl md:text-4xl lg:text-[90px] mt-12">
           <span className="cookie-regular">Drx. Shekhar</span>
 
-          <p className="text-[#546F2F] tracking-wider text-[15px] md:text-[20px] font-cormorant-garamond  font-semibold mt-2">
-            (Grand S/o Late Smt. Shyam wati Devi & Late Shri Jagdish Prasad Goyal ) <br/><br/> 
+          <p className="text-[#546F2F] tracking-wider text-[15px] md:text-[20px] font-cormorant-garamond  font-semibold mt-2"> 
             (S/o Smt. Vineeta Goyal & Shri Praveen Kumar Goyal)
           </p>
 
