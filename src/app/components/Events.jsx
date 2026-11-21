@@ -22,9 +22,22 @@ export default function Events() {
           </p>
           <a
             href="https://maps.app.goo.gl/i2v8w9Vs7c9rMe678"
-            className="text-black underline md:text-sm text-[16px]  font-cormorant-garamond"
+            className="inline-flex items-center gap-2 text-black underline md:text-sm text-[16px] font-cormorant-garamond"
             target="_blank"
+            rel="noopener noreferrer"
           >
+            <svg
+              className="w-4 h-4 shrink-0"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.8"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z" />
+              <circle cx="12" cy="10" r="2.5" />
+            </svg>
             See the route
           </a>
         </div>
@@ -49,9 +62,22 @@ export default function Events() {
           </p>
           <a
             href="https://maps.app.goo.gl/i2v8w9Vs7c9rMe678"
-            className="text-black underline md:text-sm text-[16px]  font-cormorant-garamond"
+            className="inline-flex items-center gap-2 text-black underline md:text-sm text-[16px] font-cormorant-garamond"
             target="_blank"
+            rel="noopener noreferrer"
           >
+            <svg
+              className="w-4 h-4 shrink-0"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.8"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z" />
+              <circle cx="12" cy="10" r="2.5" />
+            </svg>
             See the route
           </a>
         </div>
@@ -76,9 +102,22 @@ export default function Events() {
           </p>
           <a
             href="https://maps.app.goo.gl/i2v8w9Vs7c9rMe678"
-            className="text-black underline md:text-sm text-[16px]  font-cormorant-garamond"
+            className="inline-flex items-center gap-2 text-black underline md:text-sm text-[16px] font-cormorant-garamond"
             target="_blank"
+            rel="noopener noreferrer"
           >
+            <svg
+              className="w-4 h-4 shrink-0"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.8"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z" />
+              <circle cx="12" cy="10" r="2.5" />
+            </svg>
             See the route
           </a>
         </div>
@@ -99,11 +138,25 @@ export default function Events() {
           <p className="text-black font-cormorant-garamond text-[18px] md:text-base text-center lg:text-[25px]">
             5/32, Ashok Nagar Colony <br /> Goolar Road, Aligarh
           </p>
+
           <a
             href="https://maps.app.goo.gl/6XD3T5L8cz3NMt17A"
-            className="text-black underline md:text-sm text-[16px]  font-cormorant-garamond"
+            className="inline-flex items-center gap-2 text-black underline md:text-sm text-[16px] font-cormorant-garamond"
             target="_blank"
+            rel="noopener noreferrer"
           >
+            <svg
+              className="w-4 h-4 shrink-0"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.8"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z" />
+              <circle cx="12" cy="10" r="2.5" />
+            </svg>
             See the route
           </a>
         </div>
@@ -128,9 +181,22 @@ export default function Events() {
           </p>
           <a
             href="https://maps.app.goo.gl/i2v8w9Vs7c9rMe678"
-            className="text-black underline md:text-sm text-[16px]  font-cormorant-garamond"
+            className="inline-flex items-center gap-2 text-black underline md:text-sm text-[16px] font-cormorant-garamond"
             target="_blank"
+            rel="noopener noreferrer"
           >
+            <svg
+              className="w-4 h-4 shrink-0"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.8"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z" />
+              <circle cx="12" cy="10" r="2.5" />
+            </svg>
             See the route
           </a>
         </div>
@@ -155,9 +221,22 @@ export default function Events() {
           </p>
           <a
             href="https://maps.app.goo.gl/i2v8w9Vs7c9rMe678"
-            className="text-white underline md:text-sm text-[16px]  font-cormorant-garamond"
+            className="inline-flex items-center gap-2 text-white underline md:text-sm text-[16px] font-cormorant-garamond"
             target="_blank"
+            rel="noopener noreferrer"
           >
+            <svg
+  className="w-4 h-4 shrink-0"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="#FFFFFF"
+  strokeWidth="1.8"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+>
+  <path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z" />
+  <circle cx="12" cy="10" r="2.5" />
+</svg>
             See the route
           </a>
         </div>
